@@ -1,0 +1,18 @@
+ mkdir -p A/{B/{E/L,F/J},C/G/J,D/{H,I}/K} && touch  A/B/E/L/hello.txt  A/C/G/a.txt  &&  ln -s /home/radhe-krishna/Desktop/A/B/E/L/hello.txt A/B/F/J/hello.txt   &&  ln -s /home/radhe-krishna/Desktop/A/B/E/L/hello.txt A/C/G/J/hello.txt  &&  ln -s /home/radhe-krishna/Desktop/A/C/G/a.txt A/D/H/K/a.txt &&  ln -s /home/radhe-krishna/Desktop/A/C/G/a.txt A/D/I/K/a.txt
+
+
+1. date/time =  date
+2. create file = touch a.txt
+3. directory create = mkdir a/b
+4. google  search =
+	#!/usr/bin/python
+	import sys
+	import webbrowser
+
+	query = " ".join(sys.argv[1:]).encode('utf-8')
+	print('Query: "{}"'.format(query))
+	webbrowser.open_new_tab('http://www.google.com/search?q={}'.format(query))
+ 
+
+5. logout current user=  sudo pkill -u username(root/sumit)
+6. to  shut  down  os= 
